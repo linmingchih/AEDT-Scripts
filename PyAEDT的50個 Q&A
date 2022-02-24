@@ -32,7 +32,7 @@ Q11. pyAEDT可否呼叫舊的API或舊的API所開發的函數？
 A11. 可以
 
 Q12. 執行pyAEDT模擬會占用到license嗎？
-A12. 模擬時會需要solver license，建模會後處理時，會短暫占用UI license。
+A12. 模擬時會需要solver license。建模或後處理時會短暫占用UI license。
 
 Q13. 遇到PyAEDT相關的技術問題該如何處理？
 A13. 建議尋求ANSYS工程師的協助。
@@ -49,4 +49,12 @@ A16. 須從程式端下指令來關閉AEDT，如果從工作管理員關閉AEDT 
 Q17. 如何開發pyAEDT腳本？
 A17. 採用逐行推進來發展腳本
 
-Q18. 
+Q18. API找不到可以使用的函式該怎麼辦？
+A18. 可以到GitHub的pyAEDT提出Issue，RD會再下一個版本加入。
+
+Q19. pyAEDT多久更新一次？
+A19. 目前約莫兩周。
+
+Q20. 可以合併多個或不同的設計在同一個script當中嗎？
+A20. 可以，這也是pyAEDT的優勢之一，可以方便整合不同的solver，比方說Maxwell+Icepak，來完成多物理模擬。
+
