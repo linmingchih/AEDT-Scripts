@@ -1,0 +1,52 @@
+Q1. pyAEDT是什麼？
+A1. pyAEDT是一個Python模組，讓使用者可以透過編寫Python代碼來完成建模，設定，模擬到資料分析的工作
+
+Q2. pyAEDT需要收費或授權嗎？
+A2. 無須收費，也無須額外授權。
+
+Q3. pyAEDT支援那些軟體呢？
+A3. AEDT當中包含HFSS，HFSS 3D Layout，Q3D，Circuit，Maxwell，Icepak，Mechanical，EMIT，Simplorer等等。
+
+Q4. pyAEDT跟舊的AEDT API最大的不同點？
+A4. pyAEDT是CPython框架，可以跟一般常用的Python套件相容。而舊的API為Iron Python框架，不能使用Cpython的套件。
+
+Q5. 使用pyAEDT需要具備哪些能力？
+A5. 需要懂Python程式語言以及AEDT的操作
+
+Q6. 如何安裝pyAEDT？
+A6. 先建立Python虛擬環境，接著用pip安裝pyAEDT即可
+
+Q7. 建議的程式編輯器？
+A7. Spyder, PyCharm或是Visual Studio Code都是很好的選擇
+
+Q8. 有無pyAEDT的API相關文檔及範例？
+A8. Google PyANSYS，在pyANSYS可以在當中找到pyAEDT相關說明文件及範例。
+
+Q9. 如何執行pyAEDT程式
+A9. 直接在程式編輯器當中啟動執行。
+
+Q10. 能否在AEDT當中執行pyAEDT程式？
+A10. 在AEDT當中安裝pyAEDT，便可以在AEDT當中執行pyAEDT代碼。
+
+Q11. pyAEDT可否呼叫舊的API或舊的API所開發的函數？
+A11. 可以
+
+Q12. 執行pyAEDT模擬會占用到license嗎？
+A12. 模擬時會需要solver license，建模會後處理時，會短暫占用UI license。
+
+Q13. 遇到PyAEDT相關的技術問題該如何處理？
+A13. 建議尋求ANSYS工程師的協助。
+
+Q14. 如果不啟動GUI，該如何檢視3D模型？
+A14. 可以使用plot()函數輸出3D模型
+
+Q15. 編寫pyAEDT程式碼時，該如何除錯？
+A15. 可以使用斷點，或逐行執行來找尋bug位置
+
+Q16. 程式開發時，為何無法關閉AEDT GUI？
+A16. 須從程式端下指令來關閉AEDT，如果從工作管理員關閉AEDT UI。則必須重啟Python核心
+
+Q17. 如何開發pyAEDT腳本？
+A17. 採用逐行推進來發展腳本
+
+Q18. 
