@@ -19,6 +19,6 @@ Day 5. PyAEDT Scripting
 - pyaedt installation
 - pyaedt API introduction
 
-Day 6. Advanced
+Day 6. Advanced pyAEDT
 - Build application
-- 
+- UI Development
