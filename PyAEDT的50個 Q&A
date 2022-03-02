@@ -14,7 +14,7 @@ Q5. 使用pyAEDT需要具備哪些能力？
 A5. 需要懂Python程式語言以及AEDT的操作
 
 Q6. 如何安裝pyAEDT？
-A6. 先建立Python虛擬環境，接著用pip安裝pyAEDT即可
+A6. 先建立Python虛擬環境，接著用pip安裝pyAEDT即可，指令pip install pyaedt
 
 Q7. 建議的程式編輯器？
 A7. Spyder, PyCharm或是Visual Studio Code都是很好的選擇
@@ -58,3 +58,32 @@ A19. 目前約莫兩周。
 Q20. 可以合併多個或不同的設計在同一個script當中嗎？
 A20. 可以，這也是pyAEDT的優勢之一，可以方便整合不同的solver，比方說Maxwell+Icepak，來完成多物理模擬。
 
+Q21. 如何搭建pyAEDT使用介面？
+A21. 使用Console, Jupyter或是Windows Form
+
+Q22. 可以在AEDT當中執行pyAEDT代碼嗎？
+A22. 可以，但須先安裝pyAEDT for IronPython套件
+
+Q23. 在編輯器當中執行，AEDT卻錯誤反應該如何處置。
+A23. 先在工作管理員當中關閉AEDT，再回到編輯器重啟Console
+
+Q24. 電腦沒有連線可以安裝pyaedt嗎？
+A24. 需取得離線安裝包，細節請洽ANSYS
+
+Q25. 該如何更新pyAEDT模組
+A25. 使用指令：pip install pyaedt --upgrade
+
+Q26. pyAEDT建模指令有哪些
+A26. 以hfss為例，可以找尋hfss.modeler.create_***()，或在Python終端機當中輸入：dir(hfss.modeler)
+
+Q27. pyAEDT支援優化或掃描功能嗎？
+A27. 是的。也可以連接外部工具，如Optislang
+
+Q28. 不開啟GUI可以執行pyaedt嗎？
+A28. 可以，但會短暫使用到GUI license
+
+Q29. 不開啟GUI可以看到設計嗎？
+A29. 可以，以hfss為例，使用hfss.plot()
+
+Q30. Linux可以使用嗎
+A30. 可以，但是透過編輯器開發需到2023。
